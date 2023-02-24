@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="">
+    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="Unsuccesful allocation test added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" afterDir="false" />
     </list>
@@ -33,13 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CinnamonCinemasTest.checkUnSuccessfulAllocation">
     <configuration name="CinnamonCinemasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
@@ -55,8 +60,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CinnamonCinemasTest.checkSuccessfulAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cinnamon-cinemas-TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
+      <option name="METHOD_NAME" value="checkSuccessfulAllocation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CinnamonCinemasTest.checkUnSuccessfulAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cinnamon-cinemas-TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
+      <option name="METHOD_NAME" value="checkUnSuccessfulAllocation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkUnSuccessfulAllocation" />
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulAllocation" />
         <item itemvalue="JUnit.CinnamonCinemasTest" />
       </list>
     </recent_temporary>
@@ -70,6 +109,21 @@
       <option name="presentableId" value="Default" />
       <updated>1676979018609</updated>
     </task>
+    <task id="LOCAL-00001" summary="First TestCaseAdded check successful Allocation to allocate 1 seat">
+      <created>1677106282063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677106282063</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unsuccesful allocation test added">
+      <created>1677190476521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677190476522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First TestCaseAdded check successful Allocation to allocate 1 seat" />
+    <MESSAGE value="Unsuccesful allocation test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unsuccesful allocation test added" />
   </component>
 </project>
