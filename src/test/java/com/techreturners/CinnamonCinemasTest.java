@@ -8,8 +8,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.List;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CinnamonCinemasTest {
 
@@ -35,6 +35,15 @@ public class CinnamonCinemasTest {
         int seatRequested = 16;
         assertFalse(cinema.allocateSeats(seatRequested));
 
+    }
+
+    @Test
+    public void checkSuccessfulListOfAllocatedSeats(){
+        cinema = new CinnamonCinemas(15);
+        int seatsRequested = 5;
+        List<String> expectedAllocatedSeatsList = List.of("A1","A2","A3","A4","A5");
+        cinema.allocateSeats(seatsRequested);
+        assertEquals(expectedAllocatedSeatsList,cinema.getListOfSeatsAllocated());
     }
 
 

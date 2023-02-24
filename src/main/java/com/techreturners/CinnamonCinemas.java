@@ -24,6 +24,7 @@ public class CinnamonCinemas {
                 if(!seatMap[row][seat] && seatRequested > 0){
                     seatMap[row][seat] = true;
                     ableToAllocate = true;
+                    listOfSeatsAllocated(row,seat);
                     totalAvailabeSeats--;
                     seatRequested--;
 
@@ -33,5 +34,17 @@ public class CinnamonCinemas {
         }
         return ableToAllocate  && totalAvailabeSeats>0;
        // return true;
+    }
+
+    private void listOfSeatsAllocated(int row, int seat){
+        StringBuilder sb = new StringBuilder();
+        if(row == 0) sb.append("A").append(seat+1);
+        else if(row == 1) sb.append("B").append(seat+1);
+        else if(row == 2) sb.append("C").append(seat+1);
+        allocatedSeatList.add(sb.toString());
+    }
+
+    public List<String> getListOfSeatsAllocated() {
+        return allocatedSeatList;
     }
 }

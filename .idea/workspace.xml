@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="Unsuccesful allocation test added">
+    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="list of seat allocated method added and test case added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" afterDir="false" />
     </list>
@@ -44,7 +43,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CinnamonCinemasTest.checkUnSuccessfulAllocation">
+  <component name="RunManager" selected="JUnit.CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats">
     <configuration name="CinnamonCinemasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
@@ -76,6 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cinnamon-cinemas-TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
+      <option name="METHOD_NAME" value="checkSuccessfulListOfAllocatedSeats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CinnamonCinemasTest.checkUnSuccessfulAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
@@ -94,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats" />
         <item itemvalue="JUnit.CinnamonCinemasTest.checkUnSuccessfulAllocation" />
         <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulAllocation" />
         <item itemvalue="JUnit.CinnamonCinemasTest" />
@@ -123,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677190476522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Parameterized test added">
+      <created>1677250364119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677250364119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First TestCaseAdded check successful Allocation to allocate 1 seat" />
     <MESSAGE value="Unsuccesful allocation test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unsuccesful allocation test added" />
+    <MESSAGE value="Parameterized test added" />
+    <MESSAGE value="list of seat allocated method added and test case added" />
+    <option name="LAST_COMMIT_MESSAGE" value="list of seat allocated method added and test case added" />
   </component>
 </project>
