@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="changed check successful list of allocated seats to parameterized test">
+    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="main method added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techreturners.Main" />
@@ -56,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CinnamonCinemasTest.checkSuccessfulAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CinnamonCinemasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +68,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.techreturners" />
       <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
-      <option name="METHOD_NAME" value="checkSuccessfulAllocation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CinnamonCinemasTest.checkInvalidMultipleSeatAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cinnamon-cinemas-TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
+      <option name="METHOD_NAME" value="checkInvalidMultipleSeatAllocation(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CinnamonCinemasTest.checkInvalidSeatAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +99,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.techreturners" />
       <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
-      <option name="METHOD_NAME" value="checkSuccessfulListOfAllocatedSeats(int,java.lang.String)" />
+      <option name="METHOD_NAME" value="checkInvalidSeatAllocation(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CinnamonCinemasTest.checkValidMultipleSeatAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cinnamon-cinemas-TDD" />
       <extension name="coverage">
         <pattern>
@@ -98,23 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.techreturners" />
       <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
-      <option name="METHOD_NAME" value="checkSuccessfulListOfAllocatedSeats" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CinnamonCinemasTest.checkUnSuccessfulAllocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cinnamon-cinemas-TDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techreturners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techreturners" />
-      <option name="MAIN_CLASS_NAME" value="com.techreturners.CinnamonCinemasTest" />
-      <option name="METHOD_NAME" value="checkUnSuccessfulAllocation" />
+      <option name="METHOD_NAME" value="checkValidMultipleSeatAllocation(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats (1)" />
-        <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulListOfAllocatedSeats" />
-        <item itemvalue="JUnit.CinnamonCinemasTest.checkUnSuccessfulAllocation" />
-        <item itemvalue="JUnit.CinnamonCinemasTest.checkSuccessfulAllocation" />
+        <item itemvalue="JUnit.CinnamonCinemasTest" />
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkInvalidMultipleSeatAllocation" />
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkValidMultipleSeatAllocation" />
+        <item itemvalue="JUnit.CinnamonCinemasTest.checkInvalidSeatAllocation" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677251258709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main method added">
+      <created>1677251599665</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677251599665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +202,22 @@
     <MESSAGE value="Parameterized test added" />
     <MESSAGE value="list of seat allocated method added and test case added" />
     <MESSAGE value="changed check successful list of allocated seats to parameterized test" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed check successful list of allocated seats to parameterized test" />
+    <MESSAGE value="main method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="main method added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java</url>
+          <line>25</line>
+          <properties class="com.techreturners.CinnamonCinemasTest" method="checkValidSingleAllocation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

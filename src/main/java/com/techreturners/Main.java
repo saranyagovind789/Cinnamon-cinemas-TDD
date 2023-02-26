@@ -8,14 +8,18 @@ public class Main {
         CinnamonCinemas cinema = new CinnamonCinemas(15);
         Random rand = new Random();
         boolean successfulAllocation;
-        System.out.println("****Welcome to Cinnamon Cinemas random seat allocation application****");
+        System.out.println("**Welcome to Cinnamon Cinemas random seat allocation application**");
 
         do{
             int numberOfSeats = rand.nextInt(3) + 1;
             System.out.println("The number of seats to be allocated " + numberOfSeats);
             successfulAllocation = cinema.allocateSeats(numberOfSeats);
-            if(successfulAllocation) System.out.println(cinema.getListOfSeatsAllocated());
-            else System.out.println("Sorry seats cannot be allocated. Not enough available seats left 😭");
+            if(successfulAllocation) {
+                List<String> seatList = cinema.getListOfSeatsAllocated();
+                System.out.println("Seats Booked :"+ seatList.subList(seatList.size()-numberOfSeats,seatList.size()));
+                //System.out.println(cinema.getListOfSeatsAllocated());
+            }
+            else System.out.println("Sorry seats cannot be allocated. Not enough available seats left");
             System.out.println();
         }while (successfulAllocation);
     }
