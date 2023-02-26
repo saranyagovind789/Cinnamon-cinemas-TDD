@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="main method added">
+    <list default="true" id="39fa7909-3b52-4e03-ad39-625925ee51ca" name="Changes" comment="Main.java added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/CinnamonCinemas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/CinnamonCinemasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677251599665</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Main.java added">
+      <created>1677438385927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677438385927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +208,8 @@
     <MESSAGE value="list of seat allocated method added and test case added" />
     <MESSAGE value="changed check successful list of allocated seats to parameterized test" />
     <MESSAGE value="main method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="main method added" />
+    <MESSAGE value="Main.java added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main.java added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
